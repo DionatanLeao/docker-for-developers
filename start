@@ -1,0 +1,2 @@
+https://github.com/matheusbattisti/curso_docker
+docker run docker/whalesay cowsay hello_world
