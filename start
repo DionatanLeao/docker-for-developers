@@ -18,3 +18,14 @@ Onde encotrar imagens?
 - Neste site podemos verificar quais as imagens existem da tecnologia que estamos procurando, por exemplo: Node.js;
 - E também aprender a como utilizá-las;
 - Vamos executar uma imagem em um container com o comando: docker run <imagem>
+
+Verificar containers executados
+- O comando docker ps ou docker container ps exibe quais containers estão sendo executados no momento;
+- Utilizando a flag -a, temos também todos os containers já executados na máquina;
+- Este comando é útil para entender o que está sendo executado e acontece no nosso ambiente;
+
+Executando container com interação
+- Podemos rodar um container e deixá-lo executando no terminal;
+- Vamos utilizar a flag it;
+- Desta maneira podemos executar comandos disponíveis no container que estamos utilizando o comando run;
+- Podemos utilizar a imagem do ubuntu para isso!
