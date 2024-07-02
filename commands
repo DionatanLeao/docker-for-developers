@@ -1,0 +1,3 @@
+docker run ubuntu
+docker run -it ubuntu
+docker ps
