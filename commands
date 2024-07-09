@@ -2,3 +2,6 @@ docker run ubuntu
 docker run -it ubuntu
 docker ps
 docker ps -a | docker container ls -a
+docker run nginx
+docker stop NAMES(eloquent_lalande)
+docker run -d nginx
