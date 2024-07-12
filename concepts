@@ -57,3 +57,8 @@ Iniciando um container
 - Aprendemos já a parar um container com o stop, para voltar a rodar um container podemos usar o comando docker start <id>;
 - Lembre-se que o run sempre cria um novo container;
 - Então caso seja necessário aproveitar um antigo, opte pelo start;
+
+Definindo nome do container
+- Podemos definir um nome do container com a flag --name;
+- Se não colocamos, recebemos um nome aleatório, o que pode ser um problema para uma  aplicação profissional;
+- A flag run é inserida junto do comando run;

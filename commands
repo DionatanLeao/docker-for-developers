@@ -12,3 +12,6 @@ docker stop zealous_kapitsa
 docker ps -a
 docker start 7d27f2227c16
 docker stop 7d27
+docker run -d -p 80:80 --name nginx_app nginx
+docker stop nginx_app
+docker start nginx_app
