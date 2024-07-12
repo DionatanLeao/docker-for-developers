@@ -11,3 +11,4 @@ docker stop 357a997572dd
 docker stop zealous_kapitsa
 docker ps -a
 docker start 7d27f2227c16
+docker stop 7d27
