@@ -10,3 +10,4 @@ docker run -d -p 3000:80 nginx
 docker stop 357a997572dd
 docker stop zealous_kapitsa
 docker ps -a
+docker start 7d27f2227c16
