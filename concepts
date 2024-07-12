@@ -53,3 +53,7 @@ Parando containers
 - Desta maneira estaremos liberando recursos que estão sendo gastos pelo mesmo;
 - Podemos verificar os containers rodando com o comando docker ps;
 
+Iniciando um container
+- Aprendemos já a parar um container com o stop, para voltar a rodar um container podemos usar o comando docker start <id>;
+- Lembre-se que o run sempre cria um novo container;
+- Então caso seja necessário aproveitar um antigo, opte pelo start;
