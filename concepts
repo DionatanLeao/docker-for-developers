@@ -48,3 +48,8 @@ Expor portas
 - Desta maneira o container estará acessível na porta 80;
 - Podemos testar este exemplo com o nginx;
 
+Parando containers
+- Podemos parar um container com o comando docker stop <id ou nome>;
+- Desta maneira estaremos liberando recursos que estão sendo gastos pelo mesmo;
+- Podemos verificar os containers rodando com o comando docker ps;
+

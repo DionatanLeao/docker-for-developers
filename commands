@@ -7,3 +7,6 @@ docker stop NAMES(eloquent_lalande)
 docker run -d nginx
 docker run -d -p 80:80 nginx
 docker run -d -p 3000:80 nginx
+docker stop 357a997572dd
+docker stop zealous_kapitsa
+docker ps -a
