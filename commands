@@ -15,3 +15,5 @@ docker stop 7d27
 docker run -d -p 80:80 --name nginx_app nginx
 docker stop nginx_app
 docker start nginx_app
+docker logs nginx_app
+docker logs -f nginx_app
