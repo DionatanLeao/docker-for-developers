@@ -67,3 +67,9 @@ Verificando os logs
 - Podemos verificar o que aconteceu em um container com o comando logs;
 - Utilizamos da seguinte maneira: docker logs <id>
 - As últimas ações realizadas no container, serão exibidas no terminal;
+
+Removendo containers
+- Podemos remover um container da máquina que estamos executando o Docker;
+- O comando é docker -rm <id>;
+- Se o container estiver rodando ainda, podemos utilizar a flag -f (force);
+- O container removido não é mais listado em docker ps -a;
