@@ -21,3 +21,7 @@ docker rm ab8c3f725b53
 docker run -d --name nginx_para_remover nginx
 docker rm nginx_para_remover -f
 docker run -d -p 80:80 --name meu_apache httpd
+docker image ls
+docker run -d -p 3000:3000 489ee50ad3f3
+docker run -d -p 3000:3000 --name meu_node 489ee50ad3f3
+
