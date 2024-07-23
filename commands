@@ -20,3 +20,4 @@ docker logs -f nginx_app
 docker rm ab8c3f725b53
 docker run -d --name nginx_para_remover nginx
 docker rm nginx_para_remover -f
+docker run -d -p 80:80 --name meu_apache httpd
