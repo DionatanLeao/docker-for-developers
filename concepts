@@ -84,3 +84,16 @@ Como escolher uma boa imagem
 - Porém qualquer um pode fazer upload de uma imagem, isso é um problema;
 - Devemos então nos atentar as imagens oficiais;
 - Outro parâmetro interessante é a quantidade de downloads e a quantidade de stars;
+
+Criando uma imagem
+- Para criar uma imagem vamos precisar de um arquivo Dockerfile em uma pasta que ficará o projeto;
+- Este arquivo vai precisar de algumas instruções para poder ser executado:
+    - FROM: imagem base;
+    - WORKDIR: diretório da aplicação;
+    - EXPOSE: porta da aplicação;
+    - COPY: quais arquivos precisam ser copiados;
+
+Executando uma imagem
+- Para executar a imagem primeiramente vamos precisar fazer o build;
+- O comando é docker build <diretório da imagem>;
+- Depois vamos utilizar o docker run <imagem> para executá-la;
