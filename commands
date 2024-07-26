@@ -22,6 +22,10 @@ docker run -d --name nginx_para_remover nginx
 docker rm nginx_para_remover -f
 docker run -d -p 80:80 --name meu_apache httpd
 docker image ls
+docker build . -- tem que estar na pasta do Dockerfile
 docker run -d -p 3000:3000 489ee50ad3f3
 docker run -d -p 3000:3000 --name meu_node 489ee50ad3f3
+docker run -d -p 3000:3000 --name meu_node2 acf89cdf5df6
+docker run -d -p 3001:3001 --name meu_node3 a5a81e04993c
+docker run -d -p 5000:3000 --name meu_node4 e97df39ac812
 
