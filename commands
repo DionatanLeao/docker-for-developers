@@ -29,4 +29,5 @@ docker run -d -p 3000:3000 --name meu_node2 acf89cdf5df6
 docker run -d -p 3001:3001 --name meu_node3 a5a81e04993c
 docker run -d -p 5000:3000 --name meu_node4 e97df39ac812
 docker build .
+docker pull python
 
