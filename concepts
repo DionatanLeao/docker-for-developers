@@ -108,3 +108,9 @@ Camadas das imagens
 - Cada instrução no Dockerfile representa uma layer;
 - Quando algo é atualizado apenas as layers depois da linha atualizada são refeitas;
 - O resto permanece em cache, tornando o build mais rápido;
+
+Download de imagens
+- Podemos fazer o download de alguma imagem do hub e deixá-la disponível em nosso ambiente;
+- Vamos utilizar o comando docker pull <imagem>;
+- Desta maneira, caso se use em outro container, a imagem já estará pronta para ser utilizada;
+
