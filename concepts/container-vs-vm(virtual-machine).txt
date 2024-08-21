@@ -1,0 +1,5 @@
+Container X VM(Virtual Machine)
+- Container é uma aplicação que server para um determinado fim, não possui sistema operacional, seu tamanho é de alguns mbs;
+- VM possui sistema operacional próprio, tamanho de gbs, pode executar diversas funções ao mesmo tempo;
+- Containers acabam gastando menos recursos para serem executados, por causa do seu uso específico;
+- VM gastam mais recursos, porém podem exercer mais funções;

@@ -1,0 +1,4 @@
+Executando uma imagem
+- Para executar a imagem primeiramente vamos precisar fazer o build;
+- O comando é docker build <diretório da imagem>;
+- Depois vamos utilizar o docker run <imagem> para executá-la;

@@ -1,0 +1,4 @@
+Verificando os logs
+- Podemos verificar o que aconteceu em um container com o comando logs;
+- Utilizamos da seguinte maneira: docker logs <id>
+- As últimas ações realizadas no container, serão exibidas no terminal;
