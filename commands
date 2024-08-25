@@ -34,5 +34,9 @@ docker run -d -p 3000:3000 --name meu_node5 a25cf7b564de
 docker run -d -p 4000:4000 --name meu_node6 a25cf7b564de
 docker tag aaa34d2ec233 minhaimagem:minhatag
 docker build -t meunode_diferente:minhatag_diferente .
+docker run -d -p 3000:3000 meunode_diferente
+docker stop 26713cc3ba45
+docker start determined_elgamal
+docker start -i determined_elgamal
 
 
