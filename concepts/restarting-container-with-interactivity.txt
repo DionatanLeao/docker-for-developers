@@ -1,0 +1,11 @@
+Comando start interativo
+- A flag -it pode ser utilizada com o comando start também;
+- Ou seja, não precisamos criar um novo container para utilizá-lo no terminal;
+- O comando é: docker start it <container>
+- Use docker run para criar e iniciar um novo container, e docker start para iniciar um container 
+existente que está parado.
+
+docker run -d -p 3000:3000 meunode_diferente
+docker stop 26713cc3ba45
+docker start determined_elgamal
+docker start -i determined_elgamal
