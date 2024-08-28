@@ -44,3 +44,5 @@ docker rmi -f a5a81e04993c
 docker rmi meunode_diferente:minhatag_diferente
 docker system prune --help
 docker system prune
+docker run -d -p 3000:3000 meunode_diferente --rm meunode_diferente
+docker run -d -p 3000:3000 meunode_diferente
