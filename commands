@@ -46,3 +46,4 @@ docker system prune --help
 docker system prune
 docker run -d -p 3000:3000 meunode_diferente --rm meunode_diferente
 docker run -d -p 3000:3000 meunode_diferente
+docker run -d -p 3000:3000 --name meunode_diferente2 meunode_diferente
