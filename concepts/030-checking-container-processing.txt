@@ -1,0 +1,8 @@
+Verificar informações de processamento
+- Para Verificar dados de execução de um container utilizamos: docker top <container>
+- Desta maneira temos acesso a quando ele foi iniciado, id do processo, descrição do comando CMD;
+
+docker top meunode_diferente2
+docker run -d python
+docker run -it python
+docker top beautiful_babbage
