@@ -48,3 +48,8 @@ docker run -d -p 3000:3000 meunode_diferente --rm meunode_diferente
 docker run -d -p 3000:3000 meunode_diferente
 docker run -d -p 3000:3000 --name meunode_diferente2 meunode_diferente
 docker top meunode_diferente2
+docker run -d python
+docker run -it python
+docker top beautiful_babbage
+docker inspect meunode_diferente2
+docker stats
