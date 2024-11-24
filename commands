@@ -53,3 +53,4 @@ docker run -it python
 docker top beautiful_babbage
 docker inspect meunode_diferente2
 docker stats
+docker login
