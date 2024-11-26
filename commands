@@ -54,3 +54,10 @@ docker top beautiful_babbage
 docker inspect meunode_diferente2
 docker stats
 docker login
+docker logout
+docker build -t <caminho-criado-no-docker-hub> .
+docker push <caminho-criado-no-docker-hub>
+docker pull <caminho-criado-no-docker-hub>
+docker build -t <caminho-criado-no-docker-hub>:novaversao .
+docker push <caminho-criado-no-docker-hub>:novaversao
+docker run --name testando_imagem -p 3000:3000 -d <caminho-criado-no-docker-hub>:novaversao

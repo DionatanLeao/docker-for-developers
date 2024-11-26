@@ -1,0 +1,5 @@
+Enviando imagem para o Docker Hub
+- Para enviar imagem nossa ao Docker Hub utilizamos o comando:
+docker push <imagem>
+- Porém antes vamos precisar criar o repositório para a mesma no site do Hub;
+- Também será necessário estar autenticado;
