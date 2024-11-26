@@ -1,0 +1,5 @@
+Enviando atualização de imagem
+- Para enviar uma atualização vamos primeiramente fazer o build;
+- Trocando a tag da imagem para versão atualizada;
+- Depois vamos fazer o push novamente para o repositório;
+- Assim todas as versões estarão disponíveis para serem utilizadas;

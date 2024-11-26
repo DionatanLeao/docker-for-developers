@@ -58,3 +58,5 @@ docker logout
 docker build -t <caminho-criado-no-docker-hub> .
 docker push <caminho-criado-no-docker-hub>
 docker pull <caminho-criado-no-docker-hub>
+docker build -t <caminho-criado-no-docker-hub>:novaversao .
+docker push <caminho-criado-no-docker-hub>:novaversao
