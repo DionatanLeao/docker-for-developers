@@ -1,0 +1,4 @@
+Baixando e utilizando a imagem
+- Para baixar a imagem podemos utilizar o comando docker pull <imagem>
+- E depois criar um novo container com docker run <imagem>
+- E pronto! Estaremos utilizando a nossa imagem com um container;
