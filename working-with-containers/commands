@@ -1,0 +1,22 @@
+docker run ubuntu
+docker run -it ubuntu
+docker ps
+docker ps -a | docker container ls -a
+docker run nginx
+docker stop NAMES(eloquent_lalande)
+docker run -d nginx
+docker run -d -p 80:80 nginx
+docker run -d -p 3000:80 nginx
+docker stop 357a997572dd
+docker stop zealous_kapitsa
+docker ps -a
+docker start 7d27f2227c16
+docker stop 7d27
+docker run -d -p 80:80 --name nginx_app nginx
+docker stop nginx_app
+docker start nginx_app
+docker logs nginx_app
+docker logs -f nginx_app
+docker rm ab8c3f725b53
+docker run -d --name nginx_para_remover nginx
+docker rm nginx_para_remover -f
