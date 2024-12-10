@@ -1,2 +1,4 @@
 docker build -t phpmessages .
 docker run -d -p 80:80 --name phpmessages_container  phpmessages
+docker run -d -p 80:80 --name phpmessages_container --rm -v /data phpmessages
+docker inspect phpmessages_container
