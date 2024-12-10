@@ -1,0 +1,2 @@
+docker build -t phpmessages .
+docker run -d -p 80:80 --name phpmessages_container  phpmessages
