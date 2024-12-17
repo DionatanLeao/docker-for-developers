@@ -1,0 +1,6 @@
+Volumes Nomeados
+- Podemos criar um volume nomeado (named) da seguinte maneira:
+docker run -v nomedovolume:/data
+- Agora o volume tem um nome e pode ser facilmente referenciado;
+- Em docker volume ls podemos verificar o container nomeado criado;
+- Da mesma maneira que o anônimo, este volume tem como função armazenar arquivos;
