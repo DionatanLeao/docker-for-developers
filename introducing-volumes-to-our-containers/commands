@@ -4,3 +4,4 @@ docker run -d -p 80:80 --name phpmessages_container --rm -v /data phpmessages
 docker inspect phpmessages_container
 docker run -d -p 80:80 --name phpmessages_container -v phpvolume:/var/www/html/messages --rm phpmessages
 docker inspect phpmessages_container
+docker run -d -p 80:80 --name phpmessages_container -v C:/workspace/docker/docker-for-developers/introducing-volumes-to-our-containers\/2_volumes/messages:/var/www/html/messages --rm phpmessages
