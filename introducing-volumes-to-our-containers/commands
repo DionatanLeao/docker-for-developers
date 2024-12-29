@@ -8,3 +8,5 @@ docker run -d -p 80:80 --name phpmessages_container -v C:/workspace/docker/docke
 docker volume create volumeteste
 docker volume ls
 docker run -d -p 80:80 --name phpmessages_container -v volumeteste:/var/www/html/messages --rm phpmessages
+docker volume ls
+docker volume --help
