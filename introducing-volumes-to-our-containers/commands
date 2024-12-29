@@ -11,3 +11,4 @@ docker run -d -p 80:80 --name phpmessages_container -v volumeteste:/var/www/html
 docker volume ls
 docker volume --help
 docker volume inspect volumeteste
+docker volume rm volumeteste
