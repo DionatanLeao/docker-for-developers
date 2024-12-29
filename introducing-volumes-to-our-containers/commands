@@ -12,3 +12,4 @@ docker volume ls
 docker volume --help
 docker volume inspect volumeteste
 docker volume rm volumeteste
+docker volume prune
