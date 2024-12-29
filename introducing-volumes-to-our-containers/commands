@@ -13,3 +13,4 @@ docker volume --help
 docker volume inspect volumeteste
 docker volume rm volumeteste
 docker volume prune
+docker run -d -p 80:80 --name phpmessages_container -v volumeleitura:/var/www/html:ro --rm phpmessages
