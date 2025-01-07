@@ -1,0 +1,6 @@
+Tipos de conexão
+- Os containers costumam ter três principais tipos de comunicação:
+- Externa: conexão com uma API de um servidor remoto;
+- Como o host: comunicação com a máquina que está executando o Docker;
+- Entre os containers: Comunicação que utiliza o driver bridge e permite a comunicação entre dois ou
+mais containers;
