@@ -1,0 +1,5 @@
+O que são Networks no Docker?
+- Uma forma de gerenciar a conexão Docker com outras plataformas ou até mesmo entre containers;
+- As redes ou Networks são criadas separadas dos containers, como os volumes;
+- Além disso existem alguns drivers de rede, que veremos em seguida;
+- Uma rede deixa muito simples a comunicação entre containers;
