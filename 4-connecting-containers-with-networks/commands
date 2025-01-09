@@ -1,0 +1,4 @@
+docker ps
+docker image ls
+docker volume ls
+docker network ls
