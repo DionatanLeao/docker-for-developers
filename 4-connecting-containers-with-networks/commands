@@ -6,3 +6,7 @@ docker network create minharedeteste
 docker network create -d macvlan meumacvlan
 docker network rm meumacvlan
 docker network rm minharedeteste
+docker network create t1
+docker network create t2
+docker network create t3
+docker network prune
