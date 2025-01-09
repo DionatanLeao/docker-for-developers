@@ -1,0 +1,4 @@
+Criando rede
+- Para criar uma rede vamos utilizar o comando docker network create <nome>;
+- Esta rede será do tipo bridge, que é o mais utilizado;
+- Podemos criar diversas redes;

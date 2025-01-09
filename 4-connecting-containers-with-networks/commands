@@ -2,3 +2,5 @@ docker ps
 docker image ls
 docker volume ls
 docker network ls
+docker network create minharedeteste
+docker network create -d macvlan meumacvlan
