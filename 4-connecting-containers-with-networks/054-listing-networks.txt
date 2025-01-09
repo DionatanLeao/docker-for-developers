@@ -1,0 +1,3 @@
+Listando redes
+- Podemos verificar todas as redes do nosso ambiente com: docker network ls;
+- Algumas redes já estão criadas, estas fazem a parte da configuração inicial do docker;
