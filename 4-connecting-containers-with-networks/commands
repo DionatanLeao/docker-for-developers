@@ -10,3 +10,5 @@ docker network create t1
 docker network create t2
 docker network create t3
 docker network prune
+docker build -t flaskexterna .
+docker run -d -p 5000:5000 --name flaskexternocontainer --rm flaskexterna
