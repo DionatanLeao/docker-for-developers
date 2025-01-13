@@ -1,0 +1,3 @@
+Inspecionando redes
+- Podemos analisar os detalhes de uma rede com o comando: docker network inspect <none>;
+- Vamos receber informações como: data de criação, driver, nome e muito mais;
