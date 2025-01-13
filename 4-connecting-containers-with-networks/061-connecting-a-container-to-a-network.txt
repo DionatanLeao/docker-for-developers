@@ -1,0 +1,4 @@
+Conectar container
+- Podemos conectar um container a uma rede;
+- Vamos utilizar o comando docker network connect <rede> <container>;
+- Após o comando o container estará dentro da rede;
