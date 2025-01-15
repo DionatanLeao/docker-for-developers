@@ -1,2 +1,6 @@
 name: "John"
 age: 30
+
+object:
+  version: 2
+  file: "test.txt"
