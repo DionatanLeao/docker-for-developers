@@ -1,0 +1,6 @@
+O que é YAML?
+- Uma linguagem de serializção, seu nome é YAML ain`t Markup Language 
+(YAML não é uma linguagem de marcação);
+- Usada geralmente para arquivos de configuração, inclusive do Docker, para configurar o Docker Compose;
+- É de fácil leitura para nós humanos;
+- A extensão dos arquivos é yml ou yaml;
