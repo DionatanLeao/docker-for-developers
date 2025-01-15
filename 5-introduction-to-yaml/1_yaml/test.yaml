@@ -12,3 +12,6 @@ full-version: 3.14
 
 string-without-quotes: enter text here
 string-with-quotes: "enter text here"
+
+null-example-1: ~
+null-example-2: null
