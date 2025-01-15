@@ -15,3 +15,9 @@ string-with-quotes: "enter text here"
 
 null-example-1: ~
 null-example-2: null
+
+true-example-1: True
+true-example-2: On
+
+false-example-1: False
+false-example-2: Off
