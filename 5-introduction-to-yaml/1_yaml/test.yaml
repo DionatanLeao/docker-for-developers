@@ -1,6 +1,8 @@
+# Program instructions
 name: "John"
 age: 30
 
+# This object describes our project
 object:
   version: 2
   file: "test.txt"
