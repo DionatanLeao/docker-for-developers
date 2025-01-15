@@ -6,3 +6,6 @@ age: 30
 object:
   version: 2
   file: "test.txt"
+
+version: 2
+full-version: 3.14
