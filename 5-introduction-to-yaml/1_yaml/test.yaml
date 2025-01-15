@@ -30,3 +30,11 @@ list-2:
   - True
   - Off
   - ~
+
+obj-1: {a: 1, b: 2, c: 3, internal-obj: {x: a}}
+obj-2:
+  a: 1
+  b: 2
+  c: 3
+  internal-obj: 
+    x: a
