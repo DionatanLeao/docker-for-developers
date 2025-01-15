@@ -21,3 +21,12 @@ true-example-2: On
 
 false-example-1: False
 false-example-2: Off
+
+list-1: [1, 2, 3, 4, 5]
+list-2: 
+  - "test"
+  - 10
+  - other test
+  - True
+  - Off
+  - ~
