@@ -9,3 +9,6 @@ object:
 
 version: 2
 full-version: 3.14
+
+string-without-quotes: enter text here
+string-with-quotes: "enter text here"
