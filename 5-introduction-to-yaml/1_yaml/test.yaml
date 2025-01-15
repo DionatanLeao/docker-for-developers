@@ -1,0 +1,40 @@
+# Program instructions
+name: "John"
+age: 30
+
+# This object describes our project
+object:
+  version: 2
+  file: "test.txt"
+
+version: 2
+full-version: 3.14
+
+string-without-quotes: enter text here
+string-with-quotes: "enter text here"
+
+null-example-1: ~
+null-example-2: null
+
+true-example-1: True
+true-example-2: On
+
+false-example-1: False
+false-example-2: Off
+
+list-1: [1, 2, 3, 4, 5]
+list-2: 
+  - "test"
+  - 10
+  - other test
+  - True
+  - Off
+  - ~
+
+obj-1: {a: 1, b: 2, c: 3, internal-obj: {x: a}}
+obj-2:
+  a: 1
+  b: 2
+  c: 3
+  internal-obj: 
+    x: a
