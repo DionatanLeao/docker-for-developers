@@ -1,0 +1,4 @@
+Verificando o que tem no Compose
+- Podemos fazer a verificação do compose com: docker compose Podemos
+- Receberemos um resumo dos serviços que sobem ao rodar o compose;
+- Desta maneira podemos avaliar rapidamente o projeto;
