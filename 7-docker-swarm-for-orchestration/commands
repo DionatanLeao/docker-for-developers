@@ -1,0 +1,3 @@
+docker swarm init
+sudo docker swarm leave -f
+docker node ls
