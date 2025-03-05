@@ -1,0 +1,4 @@
+Inspecionando serviços
+- Podemos ver em mais detalhes o que um serviço possui;
+- O comando é: docker service inspect <ID>;
+- Vamos receber informações como: nome, data de criação, portas e etc;
