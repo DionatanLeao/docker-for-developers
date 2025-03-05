@@ -1,0 +1,4 @@
+Aumentando réplicas do Stack
+- Podemos criar novas réplicas nos Worker Nodes;
+- Vamos utilizar o comando: docker service scale <NOME>=<REPLICAS>
+- Desta forma as outras máquinas receberão as Tasks a serem executadas;

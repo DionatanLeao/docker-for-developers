@@ -1,0 +1,4 @@
+Conectar serviço a uma rede
+- Podemos também conectar serviços que já estão em execução a uma rede;
+- Vamos utilizar o comando de update: docker service update --network <REDE> <NOME>
+- Depois checamos o resultado com inspect;
