@@ -1,0 +1,5 @@
+Acessando a Dashboard
+- O Minikube nos disponibiliza uma Dashboard;
+- Nela podemos ver todo o detalhamento de nosso projeto: serviços, pods e etc;
+- Vamos acessar como o comando: minikube dashboard;
+- Ou apenas obter a URL: minikube dashboard --url
