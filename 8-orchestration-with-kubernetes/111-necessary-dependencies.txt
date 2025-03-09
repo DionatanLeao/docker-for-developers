@@ -1,0 +1,5 @@
+Dependências necessárias
+- O Kubernetes pode ser executado de uma maneira simples em nossa máquina;
+- Vamos precisar do client, kubectl. que é a maneira de executar o Kubernetes;
+- E também o Minikube, uma--- simulador de Kubernetes, para não precisarmos de vários
+computadores/servidores;        
