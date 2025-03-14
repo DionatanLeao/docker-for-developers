@@ -1,0 +1,4 @@
+Deletar um Service
+- Para deletar um serviço do Kubernetes vamos utilizar o comando: kubectl delete service <NOME>
+- Desta maneira nossos Pods não terão mais a conexão externa;
+- Ou seja, não poderemos mais acessar eles;
