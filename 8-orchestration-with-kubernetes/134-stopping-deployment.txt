@@ -1,0 +1,4 @@
+Parando o Deployment
+- Para parar o deployment baseado em arquivo, o declarativo, utilizamos também o delete;
+- O comando é: kubectl delete -f <ARQUIVO>
+- Desta maneira teremos os Pods sendo excluídos e o serviço finalizado;
